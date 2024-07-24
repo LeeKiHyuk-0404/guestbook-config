@@ -7,10 +7,6 @@ spec:
   ports:
   - port: 80
     targetPort: 80
-<<<<<<< HEAD
     nodePort: 30081
-=======
-    nodePort: 30080
->>>>>>> e7b91b2a1df844cec283bced43bcd715b3be1164
   selector:
     app: guestbook
